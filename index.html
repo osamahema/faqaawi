@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>الفقعاوي موبايل | الوكيل المعتمد لشركة Ooredoo</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f4f2;--card:#fff;--ink:#1c1b1b;--mute:#6d6866;--line:#e4dfdc;--red:#e30613;--red-ink:#fff;--dark:#1c1b1b;--gold:#b8872b}
+@media (prefers-color-scheme:dark){:root{--bg:#141313;--card:#201f1f;--ink:#f3efed;--mute:#a39d9a;--line:#343131;--dark:#000;--gold:#e0b25a}}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:Tajawal,Tahoma,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1000px;margin:auto;padding:0 18px}
+header.hero{background:linear-gradient(135deg,#b3000c 0%,#e30613 55%,#ff3d4a 100%);color:#fff;padding:54px 0 70px;position:relative;overflow:hidden}
+header.hero::before,header.hero::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.09);animation:float 9s ease-in-out infinite}
+header.hero::before{width:320px;height:320px;inset-inline-end:-80px;top:-100px}
+header.hero::after{width:200px;height:200px;inset-inline-end:22%;bottom:-90px;animation-delay:-4s}
+header.hero .wrap{position:relative;z-index:1}
+@keyframes float{50%{transform:translateY(22px) scale(1.06)}}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.hero .badge{animation:rise .7s both}.hero h1{animation:rise .7s .12s both}.hero p{animation:rise .7s .24s both}.hero .btn{animation:rise .7s .36s both}
+.hero h1{font-size:clamp(30px,6vw,48px);font-weight:800;line-height:1.25}
+.hero p{margin-top:10px;font-size:18px;opacity:.95;max-width:520px}
+.badge{display:inline-block;background:#fff;color:var(--red);font-weight:800;border-radius:6px;padding:2px 12px;margin-bottom:14px;font-size:15px}
+.btn{display:inline-block;border:0;cursor:pointer;font:inherit;font-weight:700;border-radius:8px;padding:9px 18px;background:var(--red);color:#fff}
+.btn{position:relative;overflow:hidden;transition:transform .2s,box-shadow .2s}
+.btn::after{content:"";position:absolute;top:0;bottom:0;width:60%;left:-80%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-20deg);transition:left .6s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(227,6,19,.35)}
+.btn:hover::after{left:130%}
+.btn:active{transform:scale(.97)}
+.btn:focus-visible,.nav a:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.btn.light{background:#fff;color:var(--red);margin-top:20px;font-size:17px;padding:11px 24px}
+.btn.line{background:transparent;color:var(--red);border:2px solid var(--red)}
+.nav{position:sticky;top:0;z-index:5;background:var(--card);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;gap:4px;overflow-x:auto;padding-top:8px;padding-bottom:8px;scrollbar-width:none}
+.nav a{white-space:nowrap;padding:6px 14px;border-radius:20px;font-weight:500;font-size:15px}
+.nav a{transition:background .2s,color .2s}.nav a:hover{background:var(--red);color:#fff}
+section{padding:36px 0 6px}
+h2{font-size:26px;font-weight:800;margin-bottom:4px}
+.sub{color:var(--mute);margin-bottom:18px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;margin-top:-26px;position:relative}
+.services div{transition:transform .2s,border-color .2s,box-shadow .2s;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-weight:500;display:flex;gap:10px;align-items:center}
+.services div:hover{transform:translateY(-3px);border-color:var(--red);box-shadow:0 8px 18px rgba(0,0,0,.1)}
+.services i{font-style:normal;color:var(--red);font-weight:800}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.card{transition:transform .25s,box-shadow .25s,border-color .25s;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:8px}
+.card:hover{transform:translateY(-6px);box-shadow:0 14px 30px rgba(0,0,0,.14);border-color:var(--red)}
+.card.big{box-shadow:0 8px 24px rgba(227,6,19,.18)}
+.card .price{font-size:30px;font-weight:800;color:var(--red);line-height:1.1}
+.card .price small{font-size:15px;font-weight:500;color:var(--mute)}
+.card ul{list-style:none;padding:0;color:var(--ink);flex:1}
+.card li{padding:3px 0;border-bottom:1px dashed var(--line)}
+.card li:last-child{border:0}
+.card h3{font-size:17px}
+.card.big{border:2px solid var(--red)}
+.card .btn{text-align:center;margin-top:6px}
+.tag{font-size:13px;font-weight:700;color:var(--mute)}
+.amounts{display:flex;flex-wrap:wrap;gap:10px}
+.amounts button{transition:transform .2s,box-shadow .2s,border-color .2s;min-width:84px;padding:12px 8px;font-size:20px;font-weight:800;background:var(--card);color:var(--ink);border:2px solid var(--line);border-radius:10px;cursor:pointer;font-family:inherit}
+.amounts button:hover{transform:translateY(-4px) scale(1.05);box-shadow:0 8px 18px rgba(227,6,19,.25)}
+.amounts button:hover,.amounts button:focus-visible{border-color:var(--red);color:var(--red);outline:0}
+.amounts small{font-size:13px;font-weight:500;color:var(--mute)}
+.plates{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.plate{position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s,border-color .25s;direction:ltr;display:flex;justify-content:space-between;align-items:center;gap:8px;border-radius:10px;padding:14px 16px;font-size:22px;font-weight:800;letter-spacing:1.5px;font-variant-numeric:tabular-nums;border:2px solid var(--line);background:var(--card);cursor:pointer;font-family:inherit;color:var(--ink);width:100%}
+.plate span{font-size:13px;letter-spacing:0;font-weight:700;color:var(--red);direction:rtl}
+.plate::after{content:"";position:absolute;top:0;bottom:0;width:40%;left:-60%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.25),transparent);transform:skewX(-20deg);transition:left .7s}
+.plate:hover::after{left:130%}
+.plate:hover{transform:translateY(-4px);box-shadow:0 10px 22px rgba(0,0,0,.18)}
+.plates.vip .plate:hover{box-shadow:0 10px 26px rgba(224,178,90,.35)}
+.plate:hover,.plate:focus-visible{border-color:var(--red);outline:0}
+.plates.vip .plate{background:var(--dark);color:#fff;border-color:var(--gold)}
+.plates.vip .plate span{color:var(--gold)}
+.plates.vip .plate:hover{border-color:#fff}
+.note{margin-top:12px;color:var(--mute);font-size:14px}
+footer{margin-top:50px;background:var(--dark);color:#fff;padding:34px 0;text-align:center}
+footer p{opacity:.8;margin-top:6px}
+.float{animation:pulse 2.6s infinite;transition:transform .2s}
+.float:hover{transform:scale(1.07)}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;counter-reset:s}
+.step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 18px 18px 18px;position:relative;counter-increment:s}
+.step::before{content:counter(s);display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--red);color:#fff;font-weight:800;margin-bottom:8px}
+.step b{display:block;font-size:17px}.step span{color:var(--mute);font-size:15px}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s,transform .6s}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+.float{position:fixed;inset-inline-start:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));background:#25d366;color:#fff;font-weight:800;border-radius:30px;padding:12px 20px;box-shadow:0 4px 14px rgba(0,0,0,.3);z-index:9}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge">الوكيل المعتمد لشركة Ooredoo</span>
+    <h1>الفقعاوي موبايل</h1>
+    <p>شرائح، باقات، فواتير وأرقام مميزة. كل خدمات Ooredoo في مكان واحد.</p>
+    <a class="btn light" href="#" data-wa="مرحباً، بدي أستفسر عن خدمات Ooredoo">تواصل معنا واتساب</a>
+  </div>
+</header>
+
+<nav class="nav"><div class="wrap">
+  <a href="#offers">العروض</a><a href="#bills">باقات الفواتير</a><a href="#internet">الإنترنت</a>
+  <a href="#sms">الرسائل</a><a href="#recharge">شحن رصيد</a><a href="#numbers">أرقام مميزة</a>
+</div></nav>
+
+<main class="wrap">
+  <div class="services" id="services"></div>
+
+  <section id="how">
+    <h2>كيف تطلب؟</h2>
+    <p class="sub">الطلب والدفع كله عن طريق واتساب</p>
+    <div class="steps">
+      <div class="step"><b>اختر طلبك</b><span>باقة، رصيد، حزمة أو رقم مميز، اضغط عليه.</span></div>
+      <div class="step"><b>يفتح واتساب مباشرة</b><span>الرسالة جاهزة فيها طلبك، اضغط إرسال.</span></div>
+      <div class="step"><b>أكّد الدفع واستلم</b><span>نتفق معك على طريقة الدفع ونفعّل لك الخدمة.</span></div>
+    </div>
+  </section>
+
+  <section id="offers">
+    <h2>عروض Ooredoo الجديدة</h2>
+    <p class="sub">حزم دقائق + إنترنت + رسائل لكل الشبكات الفلسطينية</p>
+    <div class="grid" id="offersGrid"></div>
+  </section>
+
+  <section id="bills">
+    <h2>باقات الفواتير Super Plus</h2>
+    <p class="sub">كل باقة صالحة لمدة شهر. تفعيل فواتير جديدة عندنا.</p>
+    <div class="grid" id="billsGrid"></div>
+    <p class="note">تسديد فواتير لجميع مشتركي Ooredoo متوفر عندنا.
+      <a href="#" data-wa="مرحباً، بدي أسدد فاتورة Ooredoo" style="color:var(--red);font-weight:700">سدد فاتورتك</a></p>
+  </section>
+
+  <section id="internet">
+    <h2>حزم الإنترنت</h2>
+    <p class="sub">أسبوعية وشهرية</p>
+    <div class="grid" id="netGrid"></div>
+  </section>
+
+  <section id="sms">
+    <h2>حزم الرسائل</h2>
+    <p class="sub">أسبوعية وشهرية</p>
+    <div class="grid" id="smsGrid"></div>
+  </section>
+
+  <section id="recharge">
+    <h2>شحن رصيد</h2>
+    <p class="sub">اضغط على المبلغ وأرسل طلبك مباشرة على واتساب</p>
+    <div class="amounts" id="amounts"></div>
+    <p class="note">نشحن أيضاً حزم دقائق تجوال لجميع دول العالم، وحزم الدقائق والرسائل. اسأل عن السعر.</p>
+  </section>
+
+  <section id="numbers">
+    <h2>أرقام مميزة</h2>
+    <p class="sub">اضغط على الرقم لحجزه. الأرقام تُباع لمن يطلبها أولاً.</p>
+    <h3 style="margin-bottom:10px">أرقام VIB</h3>
+    <div class="plates vip" id="vip"></div>
+    <h3 style="margin:26px 0 10px">أرقام مميزة عادية</h3>
+    <div class="plates" id="reg"></div>
+    <p class="note">نستخرج لك رقم مميز حسب طلبك. أخبرنا بالأرقام التي تفضلها.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <h2 style="margin:0">الفقعاوي موبايل</h2>
+    <p>الوكيل المعتمد لشركة Ooredoo</p>
+    <p dir="ltr" style="font-size:20px;font-weight:700;opacity:1">+972 56-704-3330</p>
+    <a class="btn light" href="#" data-wa="مرحباً، بدي أستفسر عن خدمات Ooredoo">اطلب الآن على واتساب</a>
+  </div>
+</footer>
+
+<a class="float" href="#" data-wa="مرحباً، بدي أستفسر عن خدمات Ooredoo">واتساب</a>
+
+<script>
+// ===== عدّل هنا =====
+const WA_NUMBER = "972567043330"; // رقم واتساب بصيغة دولية بدون +
+const SHOP = "الفقعاوي موبايل";
+// ====================
+
+const services = ["تفعيل شريحة جديدة","تفعيل فواتير جديدة","استخراج أرقام مميزة","شحن حزم دقائق تجوال لجميع دول العالم","شحن حزم الإنترنت الأسبوعية والشهرية","شحن أرصدة","تفعيل حزم الدقائق الأسبوعية والشهرية","تفعيل حزم الرسائل الأسبوعية والشهرية","تسديد فواتير لجميع مشتركي Ooredoo"];
+
+const offers = [
+  {t:"أسبوعية",p:6,l:["35 دقيقة","25 ميجا","35 رسالة"]},
+  {t:"أسبوعية",p:13,l:["105 دقيقة","250 ميجا","105 رسالة"]},
+  {t:"لأسبوعين",p:14,l:["120 دقيقة","300 ميجا","120 رسالة"]},
+  {t:"شهرية",p:17,l:["155 دقيقة","0.5 جيجا","155 رسالة"]},
+  {t:"شهرية",p:37,l:["375 دقيقة","1 جيجا","375 رسالة"]},
+  {t:"شهرية",p:50,l:["750 دقيقة","1.5 جيجا","750 رسالة"]}
+];
+
+const bills = [
+  {n:"Super Plus 70",p:70,l:["1375 دقيقة محلية","3GB إنترنت 5G","1375 رسالة SMS","50 دقيقة تجوال","صالحة لمدة شهر"]},
+  {n:"Super Plus 105",p:105,big:1,l:["غير محدود لـ Ooredoo","1875 دقيقة محلية","3.75GB إنترنت 5G","1875 رسالة SMS","100 دقيقة تجوال","صالحة لمدة شهر"]},
+  {n:"Super Plus 145",p:145,l:["2750 دقيقة محلية","5GB إنترنت 5G","2750 رسالة SMS","150 دقيقة تجوال","صالحة لمدة شهر"]}
+];
+
+const net = [
+  {t:"أسبوعية",s:"150 ميجا",p:3},{t:"شهرية",s:"400 ميجا",p:5},{t:"شهرية",s:"1 جيجا",p:10},
+  {t:"شهرية",s:"1.5 جيجا",p:15},{t:"شهرية",s:"2.5 جيجا",p:20}
+];
+const sms = [{t:"أسبوعية",s:"550 رسالة",p:5},{t:"شهرية",s:"1500 رسالة",p:13}];
+const topups = [10,15,20,50,100,200,300,400,500];
+
+const vip = ["0567.16.444.3","0567.15.444.3","0567.2.444.05","0567.2.555.06","0567.31.666.0","0567.2.666.05","056.6.56.1005","056.6.57.1005"];
+const reg = ["056.999.26.90","056.999.08.38","056.876.6100","056.777.08.58","056.999.08.43","0567.100.60.9","056.67.500.93","056.999.21.87","056.999.16.72","056.888.13.86"];
+
+const $ = id => document.getElementById(id);
+const wa = msg => "https://wa.me/" + WA_NUMBER + "?text=" + encodeURIComponent(msg + "\n(" + SHOP + ")");
+const order = (what) => "مرحباً، بدي أطلب: " + what;
+
+$("services").innerHTML = services.map(s => `<div><i>✓</i>${s}</div>`).join("");
+
+function card(title, price, lines, label, big){
+  return `<div class="card ${big?'big':''}">
+    <span class="tag">${title}</span>
+    <div class="price">${price} <small>شيكل</small></div>
+    <ul>${lines.map(x=>`<li>${x}</li>`).join("")}</ul>
+    <a class="btn ${big?'':'line'}" href="#" data-wa="${order(label)}">اطلب الآن</a>
+  </div>`;
+}
+
+$("offersGrid").innerHTML = offers.map(o => card(o.t, o.p, o.l, `حزمة ${o.t} ${o.l.join(" + ")} بسعر ${o.p} شيكل`)).join("");
+$("billsGrid").innerHTML = bills.map(b => card(b.n, b.p, b.l, `تفعيل فاتورة ${b.n} شيكل`, b.big)).join("");
+$("netGrid").innerHTML = net.map(x => card(x.t, x.p, [x.s + " إنترنت"], `حزمة إنترنت ${x.t} ${x.s} بسعر ${x.p} شيكل`)).join("");
+$("smsGrid").innerHTML = sms.map(x => card("حزمة " + x.t, x.p, [x.s], `حزمة رسائل ${x.t} ${x.s} بسعر ${x.p} شيكل`)).join("");
+$("amounts").innerHTML = topups.map(a => `<button data-wa="${order('شحن رصيد ' + a + ' شيكل')}">${a} <small>شيكل</small></button>`).join("");
+$("vip").innerHTML = vip.map(n => `<button class="plate" data-wa="${order('حجز الرقم المميز VIB ' + n)}">${n}<span>VIB</span></button>`).join("");
+$("reg").innerHTML = reg.map(n => `<button class="plate" data-wa="${order('حجز الرقم المميز ' + n)}">${n}<span>احجز</span></button>`).join("");
+
+const io = "IntersectionObserver" in window ? new IntersectionObserver(es => es.forEach(e => { if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } }), {threshold:.12}) : null;
+document.querySelectorAll("section").forEach(el => { el.classList.add("reveal"); io ? io.observe(el) : el.classList.add("in"); });
+
+document.addEventListener("click", e => {
+  const el = e.target.closest("[data-wa]");
+  if(!el) return;
+  e.preventDefault();
+  window.open(wa(el.dataset.wa), "_blank");
+});
+</script>
+</body>
+</html>
